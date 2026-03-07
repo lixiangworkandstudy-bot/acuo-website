@@ -1,0 +1,33 @@
+Loading scopes…
+Searching for existing projects…
+> No framework detected. Default Project Settings:
+
+- Build Command: `npm run vercel-build` or `npm run build`
+- Development Command: None
+- Install Command: `yarn install`, `pnpm install`, `npm install`, or `bun install`
+- Output Directory: `public` if it exists, or `.`
+Linked to echo-lis-projects/acuo-website (created .vercel and added it to .gitignore)
+> Connecting GitHub repository: https://github.com/lixiangworkandstudy-bot/acuo-website
+> Connected
+Deploying echo-lis-projects/acuo-website
+Uploading [--------------------] (0.0B/29.1MB)
+Uploading [=====---------------] (7.3MB/29.1MB)
+Uploading [==========----------] (14.6MB/29.1MB)
+Uploading [===============-----] (21.8MB/29.1MB)
+Uploading [====================] (29.1MB/29.1MB)
+Inspect: https://vercel.com/echo-lis-projects/acuo-website/BwjYD5EQFHsf1cosQiTB2tnsKknX [15s]
+Production: https://acuo-website-59l0n8hjm-echo-lis-projects.vercel.app [15s]
+https://acuo-website-59l0n8hjm-echo-lis-projects.vercel.appBuilding...
+Building...
+Building: Running build in Washington, D.C., USA (East) – iad1
+Building: Build machine configuration: 2 cores, 8 GB
+Building: Retrieving list of deployment files...
+Building: Previous build caches not available.
+Building: Downloading 33 deployment files...
+Building: Running "vercel build"
+Building: Vercel CLI 50.28.0
+Building: Build Completed in /vercel/output [138ms]
+Building: Deploying outputs...
+[2K[1A[2K[GProduction: https://acuo-website-59l0n8hjm-echo-lis-projects.vercel.app [22s]
+Completing...
+Aliased: https://acuo-website.vercel.app [22s]

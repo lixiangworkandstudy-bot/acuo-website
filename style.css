@@ -719,10 +719,10 @@ img {
 
 .book-quote {
   font-family: var(--font-display);
-  font-size: clamp(1.4rem, 2.2vw, 1.8rem);
-  line-height: 1.9;
+  font-size: clamp(1.2rem, 1.8vw, 1.5rem);
+  line-height: 1.8;
   color: var(--gold-accent);
-  margin-bottom: 48px;
+  margin-bottom: 32px;
   position: relative;
   padding-left: 24px;
   border-left: 2px solid var(--gold-accent);
@@ -1032,6 +1032,84 @@ img {
   font-size: 0.9rem;
   color: var(--ink-light);
   line-height: 1.8;
+}
+
+/* --- Case Studies (案例展示) --- */
+.cases-section {
+  margin-bottom: 80px;
+}
+
+.cases-title {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  margin-bottom: 28px;
+  color: var(--ink-dark);
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+.cases-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.case-card {
+  display: block;
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.4s var(--ease-out-expo), box-shadow 0.4s ease;
+  aspect-ratio: 3 / 4;
+  background-color: var(--cream-warm);
+}
+
+.case-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.case-img-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.case-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  transition: transform 0.8s var(--ease-out-expo), filter 0.5s ease;
+}
+
+.case-card:hover .case-img-wrapper img {
+  transform: scale(1.03);
+  filter: brightness(0.9);
+}
+
+.case-hover {
+  position: absolute;
+  inset: 0;
+  background: rgba(45, 80, 22, 0.7);
+  /* green-deep with opacity */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  color: var(--cream);
+  font-family: var(--font-serif-cn);
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+.case-card:hover .case-hover {
+  opacity: 1;
 }
 
 .topics-section {

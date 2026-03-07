@@ -108,7 +108,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Make sure GSAP exists before calling
   if (typeof gsap !== 'undefined') {
-    initIntroAnimation();
+    // Wait for full page load (including images) before starting heavy intro animations
+    window.addEventListener('load', () => {
+      // Small delay to ensure browser has painted the initial frame
+      setTimeout(initIntroAnimation, 100);
+    });
   }
 
   // --- Navigation scroll behavior ---

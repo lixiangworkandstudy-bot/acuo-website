@@ -1,0 +1,132 @@
+::1 - - [07/Mar/2026 17:41:03] "GET / HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 17:41:04] "GET /style.css HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 17:41:04] "GET /images/author-portrait.jpg HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 17:41:04] "GET /images/mountain-hero.png HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 17:41:04] "GET /images/book-cover.png HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 17:41:04] "GET /script.js HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 17:41:15] "GET /images/activity2.jpg HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 17:41:15] "GET /images/activity3.jpg HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 17:41:15] "GET /images/activity1.jpg HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 17:41:17] "GET /images/case-pod2.jpg HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 17:41:17] "GET /images/case-douyin.jpg HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 17:41:17] "GET /images/case-pod3.jpg HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 17:41:17] "GET /images/case-pod1.jpg HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 17:48:52] "GET / HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 17:48:53] "GET /style.css HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 17:48:53] "GET /images/book-cover.png HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 17:49:05] "GET /images/activity3.jpg HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 17:49:05] "GET /images/activity1.jpg HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 17:49:05] "GET /images/activity2.jpg HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 17:49:07] "GET /images/case-pod3.jpg HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 17:49:07] "GET /images/case-pod2.jpg HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 17:49:07] "GET /images/case-pod1.jpg HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 17:49:07] "GET /images/case-douyin.jpg HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 20:52:45] "GET / HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 20:52:46] "GET /images/mountain-hero.png HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 20:52:46] "GET /style.css HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 20:52:46] "GET /images/author-portrait.jpg HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 20:52:46] "GET /script.js HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 20:52:46] "GET /images/book-cover.png HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 20:52:52] "GET /images/activity2.jpg HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 20:52:52] "GET /images/activity1.jpg HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 20:52:52] "GET /images/activity3.jpg HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 20:52:55] "GET /images/case-pod1.jpg HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 20:52:55] "GET /images/case-pod3.jpg HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 20:52:55] "GET /images/case-douyin.jpg HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 20:52:55] "GET /images/case-pod2.jpg HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:25:04] "GET / HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:25:05] "GET /style.css HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:25:05] "GET /images/book-cover.png HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:26:53] "GET /images/activity3.jpg HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:26:53] "GET /images/activity1.jpg HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:26:53] "GET /images/activity2.jpg HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:26:53] "GET /images/case-pod1.jpg HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:26:53] "GET /images/case-pod3.jpg HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:26:53] "GET /images/case-douyin.jpg HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:26:53] "GET /images/case-pod2.jpg HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:36:26] "GET / HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:36:27] "GET /images/author-portrait.jpg HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:36:48] "GET /images/2.png HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:36:48] "GET /images/3.png HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:36:48] "GET /images/4.png HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:36:48] "GET /images/1.png HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:48:09] "GET / HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:48:10] "GET /style.css HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:48:10] "GET /images/mountain-hero.png HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:48:10] "GET /images/book-cover.png HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:48:10] "GET /images/author-portrait.jpg HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:48:11] "GET /script.js HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:48:24] "GET /images/activity2.jpg HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:48:24] "GET /images/activity1.jpg HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:48:24] "GET /images/activity3.jpg HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:48:25] "GET /images/1.png HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:48:25] "GET /images/2.png HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:48:31] "GET /images/3.png HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:48:32] "GET /images/4.png HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:50:16] "GET / HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:50:17] "GET /style.css HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:50:27] "GET /images/3.png HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:50:27] "GET /images/1.png HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:50:27] "GET /images/2.png HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:50:27] "GET /images/4.png HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:52:40] "GET / HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:52:41] "GET /style.css HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:52:55] "GET /images/4.png HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:52:55] "GET /images/3.png HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:52:55] "GET /images/2.png HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:52:55] "GET /images/1.png HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:54:17] "GET / HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:54:18] "GET /style.css HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:54:18] "GET /images/mountain-hero.png HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:54:18] "GET /images/book-cover.png HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:54:19] "GET /script.js HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:54:19] "GET /images/author-portrait.jpg HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:54:31] "GET /images/activity2.jpg HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:54:31] "GET /images/activity3.jpg HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:54:31] "GET /images/activity1.jpg HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:54:37] "GET /images/1.png HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:54:37] "GET /images/2.png HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:54:42] "GET /images/3.png HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:54:42] "GET /images/4.png HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('::1', 55761, 0, 0)
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/server.py", line 660, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/server.py", line 434, in handle
+    self.handle_one_request()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/server.py", line 422, in handle_one_request
+    method()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/server.py", line 667, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/server.py", line 867, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/shutil.py", line 208, in copyfileobj
+    fdst_write(buf)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+::1 - - [07/Mar/2026 21:58:20] "GET / HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:58:20] "GET /style.css HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:58:20] "GET /images/book-cover.png HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:58:27] "GET /images/activity1.jpg HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:58:27] "GET /images/activity2.jpg HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:58:28] "GET /images/activity3.jpg HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:59:04] "GET / HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:59:05] "GET /images/book-cover.png HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:59:12] "GET /images/activity2.jpg HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:59:12] "GET /images/activity1.jpg HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:59:12] "GET /images/activity3.jpg HTTP/1.1" 304 -
+::1 - - [07/Mar/2026 21:59:17] "GET /images/3.png HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:59:17] "GET /images/4.png HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:59:17] "GET /images/2.png HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 21:59:17] "GET /images/1.png HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 22:06:24] "GET / HTTP/1.1" 200 -
+::1 - - [07/Mar/2026 22:06:25] "GET /style.css HTTP/1.1" 200 -
