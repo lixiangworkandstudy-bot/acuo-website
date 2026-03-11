@@ -851,6 +851,28 @@ img {
   font-weight: 600;
 }
 
+.market-images {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.market-proof-img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 6px 24px rgba(43, 37, 32, 0.08);
+  border: 1px solid rgba(139, 115, 85, 0.12);
+  transition: transform 0.5s var(--ease-out-expo), box-shadow 0.5s ease;
+  background: var(--cream);
+}
+
+.market-proof-img:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(43, 37, 32, 0.12);
+}
+
 .market-stats {
   display: grid;
   grid-template-columns: 1fr 1fr;
