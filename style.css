@@ -852,23 +852,25 @@ img {
 }
 
 .market-images {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
   margin-top: 32px;
 }
 
 .market-proof-img {
   width: 100%;
-  max-width: 45%;
   height: auto;
   border-radius: 6px;
-  box-shadow: 0 6px 24px rgba(43, 37, 32, 0.08);
+  box-shadow: 0 4px 15px rgba(43, 37, 32, 0.08);
   border: 1px solid rgba(139, 115, 85, 0.12);
   transition: transform 0.5s var(--ease-out-expo), box-shadow 0.5s ease;
   background: var(--cream);
+  object-fit: cover;
+}
+
+.market-proof-img-large {
+  grid-column: span 2;
 }
 
 .market-proof-img:hover {
