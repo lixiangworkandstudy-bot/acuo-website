@@ -853,7 +853,7 @@ img {
 
 .market-images {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   margin-top: 32px;
 }
@@ -867,10 +867,6 @@ img {
   transition: transform 0.5s var(--ease-out-expo), box-shadow 0.5s ease;
   background: var(--cream);
   object-fit: cover;
-}
-
-.market-proof-img-large {
-  grid-column: span 2;
 }
 
 .market-proof-img:hover {
