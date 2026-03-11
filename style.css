@@ -852,21 +852,38 @@ img {
 }
 
 .market-images {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
   gap: 16px;
   margin-top: 32px;
 }
 
 .market-proof-img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 300px;
+  /* Fixed height so they align horizontally regardless of aspect ratio */
+  max-width: 100%;
   border-radius: 6px;
   box-shadow: 0 4px 15px rgba(43, 37, 32, 0.08);
   border: 1px solid rgba(139, 115, 85, 0.12);
   transition: transform 0.5s var(--ease-out-expo), box-shadow 0.5s ease;
   background: var(--cream);
-  object-fit: cover;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .market-proof-img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .market-proof-img {
+    height: auto;
+    width: calc(50% - 8px);
+  }
 }
 
 .market-proof-img:hover {
